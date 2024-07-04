@@ -5,10 +5,10 @@ from conexion import actualizar_presentacion_farmaco, eliminar_farmaco
 def mostrar_datos(cargar_datos):
     # Establecer la conexión con la base de datos
     mydb = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="",
-        database="farmacia"
+    host="170.187.155.144",
+    user="camiloza_admin",
+    password="fyH]dM$3r!67.XK",
+    database="camiloza_farmacia",
     )
 
     # Crear un cursor para ejecutar consultas SQL
